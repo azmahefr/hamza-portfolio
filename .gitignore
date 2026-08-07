@@ -1,0 +1,23 @@
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Node modules (if any)
+node_modules/
+
+# Environment files and keys
+.env
+*.key
+
+# Ignore PDFs and other personal documents by default (remove if you want to commit certs)
+*.pdf
+*.docx
+*.xlsx
+
+# OS generated files
+ehthumbs.db
+Desktop.ini
