@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Seffari | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1 class="logo">Hamza Seffari</h1>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav_home">Home</a></li>
+            <li><a href="#about" data-i18n="nav_about">About</a></li>
+            <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+            <li><a href="#certificates" data-i18n="nav_cert">Certificates</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+            
+            <!-- زر اللغة فقط -->
+            <li>
+                <select id="language-selector" class="lang-selector">
+                    <option value="en">🇬🇧 EN</option>
+                    <option value="fr">🇫🇷 FR</option>
+                    <option value="ar">🇲🇦 AR</option>
+                </select>
+            </li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-img">
+                <!-- حط هنا سمية التصويرة ديالك -->
+                <img src="profile.jpg" alt="Hamza Seffari">
+            </div>
+            <h1 class="animate-text"><span data-i18n="hero_name">Hamza Seffari</span></h1>
+            <p class="animate-text-delay" data-i18n="hero_title">Software Engineering Student</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hamza-seffari-854858427/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/azmahefr" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:azmahseffari@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+212706812296"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title" data-i18n="about_title">About Me</h2>
+        <div class="about-container glass">
+            <div class="about-text">
+                <p data-i18n="about_desc1">
+                    I am Hamza Seffari, a Software Engineering student at Nanjing University of Science and Technology (NJUST), with a strong passion for building innovative software and solving real-world problems through technology. Before starting my bachelor's degree, I completed a Chinese language program at Harbin Institute of Technology, which strengthened my adaptability and prepared me for studying in an international environment.
+                </p>
+                <p data-i18n="about_desc2">
+                    I enjoy exploring software engineering, artificial intelligence, cybersecurity, backend development, and cloud technologies. I believe that continuous learning, discipline, and hands-on experience are the foundations of becoming a great engineer. I have earned certifications including Harvard's CS50x, freeCodeCamp Scientific Computing with Python, and an EF SET C2 English Certificate, reflecting my commitment to developing both technical and communication skills.
+                </p>
+                <p data-i18n="about_desc3">
+                    My goal is to become a world-class software engineer who creates impactful products, contributes to open-source projects, and helps build technology that improves people's lives. Every project I develop is an opportunity to learn, grow, and move one step closer to that vision.
+                </p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-i18n="about_location">Morocco / China</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span data-i18n="about_edu">Software Engineering Student</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title" data-i18n="skills_title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card glass">
+                <i class="fab fa-html5 fa-3x" style="color:#e34f26;"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card glass">
+                <i class="fab fa-css3-alt fa-3x" style="color:#1572b6;"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card glass">
+                <i class="fab fa-js fa-3x" style="color:#f7df1e;"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card glass">
+                <i class="fab fa-python fa-3x" style="color:#3776ab;"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card glass">
+                <i class="fab fa-java fa-3x" style="color:#007396;"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-card glass">
+                <i class="fas fa-database fa-3x" style="color:#00758f;"></i>
+                <h3>SQL</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="section-title" data-i18n="edu_title">Education</h2>
+        <div class="edu-grid">
+            <div class="edu-card glass">
+                <div class="edu-header">
+                    <i class="fas fa-university fa-2x" style="color:#00d2ff;"></i>
+                    <h3>Nanjing University of Science and Technology</h3>
+                </div>
+                <p class="edu-major" data-i18n="edu_major1">Bachelor of Software Engineering</p>
+                <p class="edu-date">2026 – 2030</p>
+            </div>
+            <div class="edu-card glass">
+                <div class="edu-header">
+                    <i class="fas fa-language fa-2x" style="color:#00d2ff;"></i>
+                    <h3>Harbin Institute of Technology</h3>
+                </div>
+                <p class="edu-major" data-i18n="edu_major2">Chinese Language Program</p>
+                <p class="edu-date">2025 – 2026</p>
+            </div>
+            <div class="edu-card glass">
+                <div class="edu-header">
+                    <i class="fas fa-school fa-2x" style="color:#00d2ff;"></i>
+                    <h3 data-i18n="edu_highschool">High School</h3>
+                </div>
+                <p class="edu-major" data-i18n="edu_major3">Baccalaureate in Physics Sciences (French Option)</p>
+                <p class="edu-date" data-i18n="edu_mention">Graduated with Good Mention (Mention Bien)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <h2 class="section-title" data-i18n="cert_title">Certificates</h2>
+        <div class="cert-grid">
+            <div class="cert-card glass">
+                <i class="fab fa-harvard fa-2x" style="color:#a51c30;"></i>
+                <a href="https://certificates.cs50.io/47c96fdd-a1e2-4b8c-8a52-be0046b271c6.pdf?size=letter" target="_blank" style="text-decoration:none; color:white;">
+                    <h3 data-i18n="cert1_title">Harvard CS50x</h3>
+                    <p data-i18n="cert1_desc">Introduction to Computer Science</p>
+                    <small style="color:#aaa;">Completed in 2026</small>
+                </a>
+            </div>
+            <div class="cert-card glass">
+                <i class="fab fa-free-code-camp fa-2x" style="color:#006400;"></i>
+                <a href="https://www.freecodecamp.org/certification/hamza_seffari/scientific-computing-with-python-v7" target="_blank" style="text-decoration:none; color:white;">
+                    <h3 data-i18n="cert2_title">freeCodeCamp</h3>
+                    <p data-i18n="cert2_desc">Scientific Computing with Python</p>
+                    <small style="color:#aaa;">300+ Hours</small>
+                </a>
+            </div>
+            <div class="cert-card glass">
+                <i class="fas fa-language fa-2x" style="color:#0078d4;"></i>
+                <a href="https://cert.efset.org/rnHpss" target="_blank" style="text-decoration:none; color:white;">
+                    <h3 data-i18n="cert3_title">EF SET</h3>
+                    <p data-i18n="cert3_desc">English Level C2 Proficient</p>
+                    <small style="color:#aaa;">78/100</small>
+                </a>
+            </div>
+            <div class="cert-card glass">
+                <i class="fas fa-calculator fa-2x" style="color:#ffa500;"></i>
+                <a href="https://go.fliplink.me/view/F4797BD0-E8CE-4509-B6BF-D47F2C8E0F4D" target="_blank" style="text-decoration:none; color:white;">
+                    <h3 data-i18n="cert4_title">CSCA Examination</h3>
+                    <p data-i18n="cert4_desc">Physics : 65/100 | Mathematics : 80/100</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title" data-i18n="contact_title">Contact Me</h2>
+        <div class="contact-info glass">
+            <p><i class="fas fa-envelope"></i> azmahseffari@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i> +212 706812296 (Morocco)</p>
+            <p><i class="fas fa-phone-alt"></i> +86 18045135107 (China)</p>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="footer">© 2026 Hamza Seffari. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

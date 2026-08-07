@@ -1,0 +1,15 @@
+[build]
+  # No build command for a static HTML/CSS/JS site
+  command = ""
+  # Publish root folder
+  publish = "."
+
+[build.environment]
+  # Example environment variables (add real values in Netlify UI or here)
+  NODE_ENV = "production"
+
+[context.production.environment]
+  # Production-specific environment variables
+  # MY_VAR = "value"
+
+# Site-wide settings can be managed in the Netlify dashboard.
