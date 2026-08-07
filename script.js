@@ -30,7 +30,7 @@ const translations = {
         hero_name: "hamza seffari",
         hero_title: "Software Engineering Student",
         about_title: "About Me",
-        about_desc1: "I am hamza seffari, a Software Engineering student at Nanjing University of Science and Technology (NJUST), with a strong passion for building innovative software and solving real-world problems through technology. Before starting my bachelor's degree, I completed a Chinese language program at Harbin Institute of Technology, which strengthened my adaptability and prepared me for studying in an international environment.",
+        about_desc1: "I am Hamza Seffari, a Software Engineering student at Nanjing University of Science and Technology (NJUST), with a strong passion for building innovative software and solving real-world problems through technology. Before starting my bachelor's degree, I completed a Chinese language program at Harbin Institute of Technology, which strengthened my adaptability and prepared me for studying in an international environment.",
         about_desc2: "I enjoy exploring software engineering, artificial intelligence, cybersecurity, backend development, and cloud technologies. I believe that continuous learning, discipline, and hands-on experience are the foundations of becoming a great engineer. I have earned certifications including Harvard's CS50x, freeCodeCamp Scientific Computing with Python, and an EF SET C2 English Certificate, reflecting my commitment to developing both technical and communication skills.",
         about_desc3: "My goal is to become a world-class software engineer who creates impactful products, contributes to open-source projects, and helps build technology that improves people's lives. Every project I develop is an opportunity to learn, grow, and move one step closer to that vision.",
         about_location: "Morocco / China",
@@ -52,7 +52,7 @@ const translations = {
         cert4_title: "CSCA Examination",
         cert4_desc: "Physics: 65/100 | Mathematics: 80/100",
         contact_title: "Contact Me",
-        footer: "© 2026 hamza seffari. All rights reserved."
+        footer: "© 2026 Hamza Seffari. All rights reserved."
     },
     fr: {
         nav_home: "Accueil",
@@ -84,7 +84,7 @@ const translations = {
         cert4_title: "Examen CSCA",
         cert4_desc: "Physique: 65/100 | Mathématiques: 80/100",
         contact_title: "Contactez-moi",
-        footer: "© 2026 hamza seffari. Tous droits réservés."
+        footer: "© 2026 Hamza Seffari. Tous droits réservés."
     },
     ar: {
         nav_home: "الرئيسية",
